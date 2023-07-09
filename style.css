@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+
+.container {
+  background-color: aqua;
+  height: 100px;
+  width: 900px;
+  display: flex;
+}
+
+.box {
+  width: 100px;
+  /* height: 100px; */
+}
+
+.box1 {
+  background-color: antiquewhite;
+}
+
+.box2 {
+  background-color: tomato;
+}
+
+.box3 {
+  background-color: khaki;
+}
+
+.test1 {
+  justify-content: center;
+}
+
+.test2 {
+  justify-content: space-around;
+}
+
+.test3 {
+  justify-content: space-between;
+}
+
+.test4 {
+  justify-content: space-evenly;
+}
+
+.test5 {
+  justify-content: space-evenly;
+  align-items: center;
+}
